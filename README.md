@@ -1,15 +1,15 @@
 # Build-a-Linktree-Clone
 
-https://www.youtube.com/watch?v=GRgt5efpmdM 
-https://stock.adobe.com/
+- https://www.youtube.com/watch?v=GRgt5efpmdM 
+- https://stock.adobe.com/
+- https://raw.githubusercontent.com/RodrigoMvs123/Build-a-Linktree-Clone/main/README.md
+- https://github.com/RodrigoMvs123/Build-a-Linktree-Clone/blame/main/README.md
 
-https://raw.githubusercontent.com/RodrigoMvs123/Build-a-Linktree-Clone/main/README.md
+## index.html
 
+**index.html**
 
-https://github.com/RodrigoMvs123/Build-a-Linktree-Clone/blame/main/README.md
-
-index.html 
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,12 +78,13 @@ alt="Ania Kubow Avatar" />
  
 </body>
 </html>
+```
 
+## styles.css
 
+**styles.css**
 
-styles.css
-
-styles.css
+```css
 body {
     margin: 0;
     padding: 0;
@@ -192,12 +193,13 @@ a {
     height: 44px;
  
 }
+```
 
+## app.js
 
+**app.js**
 
-app.js 
-
-app.js
+```javascript
 const shareButtons = document.querySelectorAll('.tile-share-buttom')  
 console.log(shareButtons)
  
@@ -220,7 +222,4 @@ try {
  
 shareButtons.forEach(shareButton => 
     shareButton.addEventListener)('click', copyText)) 
- 
-
-
-
+```
